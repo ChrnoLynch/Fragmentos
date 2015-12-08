@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_activated="true"
+        android:drawable="@drawable/remove_black" /> <!-- Si el boton esta activado cambia el icono por un '-' -->
+    <item android:state_activated="false"
+        android:drawable="@drawable/add_black" />  <!-- Si el boton esta activado cambia el icono por un '+' -->
+     <item android:drawable="@drawable/add_black" /> <!-- default -->
+</selector>

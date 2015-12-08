@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Contactos</string>
+    <string name="str_editar">Editar</string>
+    <string name="str_borrar">Borrar</string>
+    <string name="str_añadir">Añadir</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="obligatorio">Obligatorio</string>
+    <string name="desea">¿Desea eliminar el contacto: </string>
+    <string name="alternativo">alternativo</string>
+    <string name="dialogo_borrar">Borrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="campo_vacio">Alguno de los campos obligatorios esta vacio.</string>
+    <string name="numero_vacio">El contacto no tiene numero</string>
+    <string name="action_añadir">Añadir</string>
+    <string name="action_ordenardes">A-Z</string>
+    <string name="action_ordenarasc">Z-A</string>
+    <string name="set_copia">Realizar Copia de Seguridad</string>
+    <string name="get_copia">Recuperar Copia de Seguridad</string>
+    <string name="sincronizar">Sincronizar datos del telefono</string>
+    <string name="sincronizar_Incremental">Recuperar Copia Incremental</string>
+    <string name="title_activity_actividad_contacto">ActividadContacto</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

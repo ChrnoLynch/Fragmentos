@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/nombre"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#0062ff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNombre"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/obligatorio" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/telefono"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/etNombre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textColor="#0062ff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/etNumero1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/etNombre"
+        android:layout_alignEnd="@+id/etNombre"
+        android:hint="@string/obligatorio" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/etNumero2"
+        android:layout_below="@+id/etNumero1"
+        android:layout_alignLeft="@+id/etNumero1"
+        android:layout_alignStart="@+id/etNumero1"
+        android:layout_alignRight="@+id/etNumero1"
+        android:layout_alignEnd="@+id/etNumero1"
+        android:hint="@string/alternativo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/etNumero3"
+        android:layout_below="@+id/etNumero2"
+        android:layout_alignLeft="@+id/etNumero2"
+        android:layout_alignStart="@+id/etNumero2"
+        android:layout_alignRight="@+id/etNumero2"
+        android:layout_alignEnd="@+id/etNumero2"
+        android:hint="@string/alternativo" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/etNumero4"
+        android:layout_below="@+id/etNumero3"
+        android:layout_alignLeft="@+id/etNumero3"
+        android:layout_alignStart="@+id/etNumero3"
+        android:layout_alignRight="@+id/etNumero3"
+        android:layout_alignEnd="@+id/etNumero3"
+        android:hint="@string/alternativo" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iwAceptar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@android:drawable/ic_menu_save"
+        android:onClick="aceptar" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iwCancelar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:onClick="cancelar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto"
+        android:id="@+id/btfoto"
+        android:layout_below="@+id/etNumero4"
+        android:layout_alignLeft="@+id/etNumero4"
+        android:layout_alignStart="@+id/etNumero4"
+        android:onClick="foto" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/fotoadd"
+        android:layout_below="@+id/etNumero4"
+        android:layout_alignRight="@+id/etNumero4"
+        android:layout_alignEnd="@+id/etNumero4" />
+
+</RelativeLayout>
